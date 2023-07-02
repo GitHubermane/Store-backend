@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*"
+, "src/db.ts", "src/assotiations/index.ts", "models/Brand.model.ts", "models/User.model.ts", "models/Type.model.ts", "models/Transaction.model.ts", "models/Order.model.ts", "models/Favourite.model.ts", "models/Device.model.ts", "models/Cart.model.ts"  ],
+  "typescript.disableAutomaticTypeAcquisition": true,
+}
